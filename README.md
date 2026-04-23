@@ -138,19 +138,6 @@ npm install
 
 Copy `.env.example` to `.env` and update values as needed.
 
-```bash
-cp .env.example .env
-```
-
-Required/important environment variables:
-
-- `PORT`: service port (default `3000`)
-- `DB_PATH`: SQLite file path (default `data/time-off.sqlite`)
-- `DB_SYNCHRONIZE`: set `true` for local dev, `false` for production
-- `HCM_INTEGRATION_MODE`: `mock` or `api`
-- `HCM_BASE_URL`: required for API integration mode
-- `HCM_SYNC_SERVICE_TOKEN`: required token for `/api/hcm/sync`
-- `HCM_SYNC_SIGNING_SECRET`: optional HMAC signing secret for sync requests
 
 ## How To Run The Project
 
